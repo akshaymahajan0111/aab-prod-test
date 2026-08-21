@@ -134,7 +134,7 @@ export default function HomePage() {
             className="mt-8 text-xs font-mono"
             style={{ color: 'rgba(147, 197, 253, 0.8)' }}
           >
-            Built with Airo Builder
+            Built with AAB
           </p>
         </div>
       </div>
