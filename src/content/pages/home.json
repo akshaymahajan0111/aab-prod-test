@@ -1,0 +1,60 @@
+{
+  "hero": {
+    "kicker": "// an interactive experience",
+    "headline": "Hello, World.",
+    "subtitle": "The first program. Reimagined.",
+    "ctaPrimary": "Explore ↓",
+    "ctaSecondary": "View Source"
+  },
+  "stats": [
+    {
+      "id": "s1",
+      "label": "Languages",
+      "value": 10,
+      "suffix": "+"
+    },
+    {
+      "id": "s2",
+      "label": "Possibilities",
+      "value": "∞",
+      "suffix": ""
+    },
+    {
+      "id": "s3",
+      "label": "Message",
+      "value": 1,
+      "suffix": ""
+    },
+    {
+      "id": "s4",
+      "label": "Interactive",
+      "value": 100,
+      "suffix": "%"
+    }
+  ],
+  "cards": {
+    "message": {
+      "kicker": "01 / The Message",
+      "title": "Hello, World.",
+      "subtitle": "in every language"
+    },
+    "vibe": {
+      "kicker": "02 / The Vibe",
+      "title": "Pick your palette"
+    },
+    "motion": {
+      "kicker": "03 / The Motion",
+      "hint": "Hover to repel particles"
+    },
+    "origin": {
+      "kicker": "04 / Est. 1972",
+      "title": "The origin story",
+      "body": "\"Hello, World!\" was first used by Brian Kernighan in a 1972 Bell Laboratories internal memo titled \"A Tutorial Introduction to the Language B\". It became the universal first program — a tradition spanning 50+ years, millions of developers, and every language ever written. Two words. Infinite beginnings.",
+      "highlight": "\"A Tutorial Introduction to the Language B\""
+    }
+  },
+  "footer": {
+    "line1": "Made with ✦ and Motion",
+    "line2": "Hello, World. — Est. 1972"
+  }
+}
