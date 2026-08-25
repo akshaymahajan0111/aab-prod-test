@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { Helmet } from '@dr.pogodin/react-helmet';
+import { home } from 'virtual:content';
 
 interface Particle {
   x: number;
@@ -122,19 +123,19 @@ export default function HomePage() {
               lineHeight: 1.1,
             }}
           >
-            Hello AI World!
+            {home.hero.title}
           </h1>
           <p
             className="mt-5 text-xs tracking-[0.3em] uppercase font-mono"
             style={{ color: 'rgba(148, 163, 184, 0.45)' }}
           >
-            Move your cursor
+            {home.hero.instruction}
           </p>
           <p
             className="mt-8 text-xs font-mono"
             style={{ color: 'rgba(147, 197, 253, 0.8)' }}
           >
-            Built with AAB
+            {home.hero.attribution}
           </p>
         </div>
       </div>

@@ -39,6 +39,15 @@ export const schemas = {
       "line1": z.string(),
       "line2": z.string()
     })
-  })
+  }),
+  pages: {
+    home: z.object({
+      "hero": z.object({
+        "title": z.string(),
+        "instruction": z.string(),
+        "attribution": z.string()
+      })
+    })
+  }
 };
 export type Schemas = typeof schemas;
